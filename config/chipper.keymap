@@ -55,7 +55,7 @@
         SYM_layer {  // SYM 2
             bindings = <
 &trans        &kp GRAVE   &kp AMPS    &kp STAR    &trans    &trans      &kp SQT    &kp LPAR    &kp RPAR    &kp BSLH    &kp PIPE
-&trans        &kp TILDE   &kp DLLR    &kp PRCNT   &CARET    &trans      &kp DQT    &kp LBRC    &kp RBRC    &kp LBKT    &kp RBKT
+&trans        &kp TILDE   &kp DLLR    &kp PRCNT   &kp CARET &trans      &kp DQT    &kp LBRC    &kp RBRC    &kp LBKT    &kp RBKT
               &trans      &kp EXC     &kp AT      &kp HASH  &trans      &trans     &kp MINUS   &kp UNDER   &kp EQAL    &kp PLUS
                            &trans &trans &trans &trans                           &trans &trans &trans &trans
                                   &trans                                                       &trans
