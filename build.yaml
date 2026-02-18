@@ -14,19 +14,19 @@
 ---
 
 
-#include:
-#  - board: seeeduino_xiao_ble
-#    shield: chipper_left
-#  - board: seeeduino_xiao_ble
-#    shield: chipper_right
-#  - board: seeeduino_xiao_ble
-#    shield: settings_reset
+include:
+  - board: nice_nano_v2
+    shield: chipper_left
+  - board: nice_nano_v2
+    shield: chipper_right
+  - board: nice_nano_v2
+    shield: settings_reset
 
 
-include: 
-  - board: nice_nano_v2
-  - shield: chipper_left
-  - board: nice_nano_v2
-  - shield: settings_reset
+#include: 
+#  - board: nice_nano_v2
+#  - shield: chipper_left
+#  - board: nice_nano_v2
+#  - shield: settings_reset
 
 
