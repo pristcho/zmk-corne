@@ -5,22 +5,3 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>        // bluetooth
 #include <dt-bindings/zmk/pointing.h>  // mouse
-
-#define QWERTY 0  // mac os
-#define NUM 1  // number
-#define SYM 2  // symbol
-#define FUNC 3  // function
-
-
-
-/ {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-};
-
-
