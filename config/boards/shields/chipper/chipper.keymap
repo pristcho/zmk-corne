@@ -9,11 +9,10 @@
 
 
 
-#define DEF 0
-#define NAV 1
-#define FN 2
-#define NUM 3
-#define SYS 4
+#define QWERTY 0  // mac os
+#define NUM 1  // number
+#define SYM 2  // symbol
+#define FUNC 3  // function
 
 
 / {
